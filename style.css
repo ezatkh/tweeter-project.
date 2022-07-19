@@ -1,0 +1,62 @@
+body{
+    font-family:cursive;
+    background-color: #dfe6e9;
+
+}
+h1{
+    margin-left: 10px;
+}
+.head{
+    margin: 10px;
+grid-area: 'h';
+display: grid;
+grid-template-columns: 4fr 1fr;
+column-gap: 10px;
+}
+
+button{
+
+    border-radius: 6px;
+
+    
+}
+.btn{
+border: 2px ridge  ove  #227093;
+   background-color: #34ace0; 
+   font-weight: bold;
+   font-size: 16px;  
+   height: 36px;
+}
+.txt{
+    height: 30px;
+    border-radius: 6px;
+ }
+
+.content{
+grid-area: 'c';
+display: grid;
+grid-template-rows: 1fr;
+row-gap: 15px;
+margin-left: 50px;
+margin-right: 50px;
+}
+.post{
+    border: 2px inset  #227093;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px
+}
+.delete-post{
+    background-color: red;
+    color: white;
+    margin: 5px;
+}
+.itemComment{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
+.comments{
+    margin:8px ;
+display: grid;
+row-gap: 10px;
+}
